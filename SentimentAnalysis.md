@@ -27,8 +27,9 @@ The following methods use supervised labels to learn class predictions, as the a
 --
 
 [**Deep Convolutional Neural Networks for Sentiment Analysis of Short Texts**](http://anthology.aclweb.org/C/C14/C14-1008.pdf)
-C'{i}cero Nogueira dos Santos, Ma'{i}ra Gatti (COLING, 2014)
+Cicero Nogueira dos Santos, Maira Gatti (COLING, 2014)
 
 Uses a convolutional network over characters and words with pretrained embeddings to beat the state of the art both on the STS and SSTb datasets.
+![CharCNN](pics/charCNN.png)
 
 --
