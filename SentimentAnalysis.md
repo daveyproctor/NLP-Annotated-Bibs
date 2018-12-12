@@ -43,3 +43,33 @@ Uses a convolutional network over characters and words with pretrained embedding
 ![CharCNN](pics/charCNN.png)
 
 --
+
+[**Character-level Convolutional Networks for Text Classification**](https://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classification.pdf)
+Xiang Zhang, Junbo Zhao, Yann LeCun (NIPS 2015)
+
+Surveys the use of fully-character views of data towards general text classification problems, including sentiment analysis. It finds that character convolutional networks can achieve competitive results, benefiting from being able to understand odd-vocabulary elements such as emoticons naturally. They come up short unpredictably accross the different tasks; therefore the authors conclude that they should be thought of as another tool in an ensemble of approaches towards problems in this domain.
+
+![CharCNN2](pics/charCNN.png)
+
+The authors were motivated by a signals-processing view on language, in which language is represented by a sequence of bytes or characters.
+
+--
+
+[**Learning to Generate Reviews and Discovering Sentiment**](https://arxiv.org/pdf/1704.01444.pdf)
+Alec Radford, Rafal Jozefowicz, Ilya Sutskever (2017)
+
+Approaches sentiment analysis as an unsupervised language modeling problem. They train a multiplicative LSTM on the Amazon product review dataset introduced in [McAuley et al. 2015](https://cseweb.ucsd.edu/~jmcauley/pdfs/kdd15.pdf). They test on a variety of application domains, including SSTb. Inuitively, their model performs best on data sets most similar to that on which they trained their model. Most interestingly, they find a single scalar unit which predicts review sentiment, and by holding it fixed, they can generate intuitively positive or negative text.
+
+![Sentiment Unit](pics/sentimentUnit.png)
+
+
+
+
+
+
+
+
+
+
+
+
