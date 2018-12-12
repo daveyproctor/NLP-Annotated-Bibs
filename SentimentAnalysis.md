@@ -17,7 +17,7 @@ Efthymios Kouloumpis, Theresa Wilson, Johanna Moore (AAAI, 2011)
 
 Surveys the utility of linguistic features towards the goal of Twitter sentiment analysis. Deploys existing lexical tools such as lexicon features and part of speech features. Also uses emoticons and hashtags to extend supervised dataset.
 
-!(pics/hashtags.png)
+![Hashtags for positivity](pics/hashtags.png)
 
 --
 
