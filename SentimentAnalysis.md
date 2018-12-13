@@ -55,7 +55,7 @@ The authors were motivated by a signals-processing view on language, in which la
 
 --
 
-[**Learning to Generate Reviews and Discovering Sentiment**](https://arxiv.org/pdf/1704.01444.pdf)
+[**Learning to Generate Reviews and Discovering Sentiment**](https://arxiv.org/pdf/1704.01444.pdf)[Code](https://github.com/openai/generating-reviews-discovering-sentiment)
 Alec Radford, Rafal Jozefowicz, Ilya Sutskever (2017)
 
 Approaches sentiment analysis as an unsupervised language modeling problem. They train a multiplicative LSTM on the Amazon product review dataset introduced in [McAuley et al. 2015](https://cseweb.ucsd.edu/~jmcauley/pdfs/kdd15.pdf). They test on a variety of application domains, including SSTb. Inuitively, their model performs best on data sets most similar to that on which they trained their model. Most interestingly, they find a single scalar unit which predicts review sentiment, and by holding it fixed, they can generate intuitively positive or negative text.
