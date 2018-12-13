@@ -3,9 +3,8 @@ Davey Proctor
 
 
 ## Datasets and evaluation
-- Stanford Twitter Sentiment Corpus (STS) 
 - Stanford Sentiment Treebank (SSTb) [[paper](https://nlp.stanford.edu/~socherr/EMNLP2013_RNTN.pdf)] [[website](https://nlp.stanford.edu/sentiment/treebank.html)]
-- Survey paper of evaluation methods [[paper](http://ceur-ws.org/Vol-1096/paper1.pdf)]
+- Survey paper of evaluation methods of Twitter sentiment analysis, including the Stanford Twitter Sentiment Corpus (STS) [[paper](http://ceur-ws.org/Vol-1096/paper1.pdf)]
 - Survey paper of benchmark datasets and SOTA models [[paper](https://arxiv.org/pdf/1512.01818.pdf)]
 
 ## Using linguistic information
