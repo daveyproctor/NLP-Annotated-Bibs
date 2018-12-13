@@ -62,6 +62,10 @@ Approaches sentiment analysis as an unsupervised language modeling problem. They
 
 ![Sentiment Unit](pics/sentimentUnit.png)
 
+## Additional papers
+[**Inferring Networks of Substitutable and Complementary Products**](https://arxiv.org/pdf/1506.08839.pdf)
+
+[**Learned in Translation: Contextualized Word Vectors**](https://arxiv.org/pdf/1708.00107.pdf)
 
 
 
